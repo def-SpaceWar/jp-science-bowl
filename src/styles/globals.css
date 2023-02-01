@@ -31,10 +31,10 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.5s;
-  transition: padding 0.3s;
+  transition: background-color 0.5s, padding 0.3s, margin 0.3s;
   font-size: 32px;
   font-weight: 400;
+  margin: 0px 20px;
 }
 
 #navspace {
@@ -50,15 +50,26 @@ nav #active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+nav #formButton {
+    background-color: #A6D;
+    color: #123;
+    float: right;
 }
 
 nav a:hover {
-    transition: background-color 0.5s;
-    transition: padding 0.3s;
+    transition: background-color 0.5s, padding 0.3s, margin 0.3s;
     background-color: #369;
     padding: 14px 36px;
+    margin: 0px;
 }
 
 nav #active:hover {
     background-color: #8FF;
+}
+
+nav #formButton:hover {
+    background-color: #B7E;
 }

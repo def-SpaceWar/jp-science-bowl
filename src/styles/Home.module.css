@@ -1,7 +1,4 @@
-@import "/fontawesome/fa-brands-400.ttf";
-
 .container {
-/*    display: flex; */
     background-color: #041525;
 }
 
@@ -14,10 +11,4 @@
 .centerBigText h1 {
     margin-top: 0px;
     padding-top: 50px;
-}
-
-.fontAwesome {
-    font-family: "FontAwesome";
-    font-size: 150%;
-    font-weight: 400;
 }

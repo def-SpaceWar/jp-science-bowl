@@ -1,0 +1,15 @@
+.marginedBox {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 150%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex center {
+    flex: 33.333%;
+}

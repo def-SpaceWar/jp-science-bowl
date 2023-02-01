@@ -1,13 +1,16 @@
+import AboutInfo from '@/components/AboutInfo'
+import AboutParagraph from '@/components/AboutParagraph'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       <Head>
-        <title>JP Science Bowl</title>
+        <title>JP Science Bowl - About</title>
       </Head>
+
+      <AboutParagraph />
+      <AboutInfo />
     </main>
   )
 }

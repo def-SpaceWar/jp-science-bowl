@@ -6,11 +6,11 @@ export default function Landing() {
     <div className={styles.container}>
       <div className={styles.centerBigText}>
         <h1>JP Science Bowl</h1>
-    <p><span className={styles.fontAwesome}></span> DATE_HERE</p>
+        <p>DATE_HERE</p>
       </div>
       <center>
-        <Image width={500} height={500} alt="JP Stevens Science Bowl" src="/scibowllogowebpage.png"/>
-        </center>
+        <Image width={500} height={500} alt="JP Stevens Science Bowl" src="/scibowllogowebpage.png" />
+      </center>
     </div>
   );
 }
