@@ -1,0 +1,264 @@
+Info 0    [14:45:19.580] Starting TS Server
+Info 1    [14:45:19.582] Version: 4.9.4
+Info 2    [14:45:19.582] Arguments: /usr/bin/node /home/aryan/Code/jp-science-bowl/node_modules/typescript/lib/tsserver.js --logFile /home/aryan/Code/jp-science-bowl/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/c5dd63dbc4ee1d9e28fe4aff6275f87f/tscancellation*
+Info 3    [14:45:19.582] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [14:45:19.582] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [14:45:19.591] Format host information updated
+Info 6    [14:45:19.603] Search path: /home/aryan/Code/jp-science-bowl/src/pages
+Info 7    [14:45:19.604] For info: /home/aryan/Code/jp-science-bowl/src/pages/_app.tsx :: Config file name: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 8    [14:45:19.604] Creating configuration project /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 9    [14:45:19.621] Config: /home/aryan/Code/jp-science-bowl/tsconfig.json : {
+ "rootNames": [
+  "/home/aryan/Code/jp-science-bowl/next-env.d.ts",
+  "/home/aryan/Code/jp-science-bowl/src/pages/api/hello.ts",
+  "/home/aryan/Code/jp-science-bowl/src/pages/_app.tsx",
+  "/home/aryan/Code/jp-science-bowl/src/pages/_document.tsx",
+  "/home/aryan/Code/jp-science-bowl/src/pages/index.tsx"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "noEmit": true,
+  "esModuleInterop": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "jsx": 1,
+  "incremental": true,
+  "baseUrl": "/home/aryan/Code/jp-science-bowl",
+  "paths": {
+   "@/*": [
+    "./src/*"
+   ]
+  },
+  "pathsBasePath": "/home/aryan/Code/jp-science-bowl",
+  "configFilePath": "/home/aryan/Code/jp-science-bowl/tsconfig.json"
+ }
+}
+Info 10   [14:45:19.637] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 11   [14:45:20.720] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1082.9745439998806ms
+Info 12   [14:45:20.720] Project '/home/aryan/Code/jp-science-bowl/tsconfig.json' (Configured)
+Info 13   [14:45:20.720] 	Files (217)
+
+Info 14   [14:45:20.720] -----------------------------------------------
+Info 15   [14:45:20.731] AutoImportProviderProject: found 1 root files in 1 dependencies in 4.006727999076247 ms
+Info 16   [14:45:20.731] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [14:45:20.955] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 223.59049799852073ms
+Info 18   [14:45:20.955] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [14:45:20.955] 	Files (1)
+
+Info 20   [14:45:20.955] -----------------------------------------------
+Info 21   [14:45:21.998] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.log/ti-14644.log 0:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 22   [14:45:21.999] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.log/ti-14644.log
+Info 23   [14:45:21.999] Elapsed:: 0.9915660005062819ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.log/ti-14644.log 0:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 24   [14:45:33.033] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 25   [14:45:33.044] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 10.303121000528336ms
+Info 26   [14:45:33.044] Different program with same set of files
+Info 27   [14:45:33.602] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 28   [14:45:33.620] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 18.018414000049233ms
+Info 29   [14:45:33.620] Different program with same set of files
+Info 30   [14:45:33.807] getCompletionData: Get current token: 0.06807900033891201
+Info 31   [14:45:33.807] getCompletionData: Is inside comment: 0.04228300042450428
+Info 32   [14:45:33.807] getCompletionData: Get previous token: 0.17545900121331215
+Info 33   [14:45:33.809] getCompletionsAtPosition: isCompletionListBlocker: 0.7718270011246204
+Info 34   [14:45:33.820] getExportInfoMap: cache miss or empty; calculating new results
+Info 35   [14:45:33.870] forEachExternalModuleToImportFrom autoImportProvider: 6.531664000824094
+Info 36   [14:45:33.870] getExportInfoMap: done in 50.55600699968636 ms
+Info 37   [14:45:33.954] collectAutoImports: resolved 84 module specifiers, plus 922 ambient and 4042 from cache
+Info 38   [14:45:33.954] collectAutoImports: response is complete
+Info 39   [14:45:33.954] collectAutoImports: 82.84704700112343
+Info 40   [14:45:33.954] getCompletionData: Semantic work: 144.57308400049806
+Info 41   [14:45:34.065] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 110.2653199993074
+Info 42   [14:45:34.089] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 43   [14:45:34.095] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 6.6544200014323ms
+Info 44   [14:45:34.096] Different program with same set of files
+Info 45   [14:45:34.900] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 46   [14:45:34.906] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 6.210456999018788ms
+Info 47   [14:45:34.906] Different program with same set of files
+Info 48   [14:45:36.260] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 49   [14:45:36.269] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 9.206607999280095ms
+Info 50   [14:45:36.269] Different program with same set of files
+Info 51   [14:45:36.625] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 52   [14:45:36.640] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 14.848115999251604ms
+Info 53   [14:45:36.640] Different program with same set of files
+Info 54   [14:45:38.038] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 55   [14:45:38.048] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 9.884041998535395ms
+Info 56   [14:45:38.048] Different program with same set of files
+Info 57   [14:45:39.899] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 58   [14:45:39.909] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 9.231811000034213ms
+Info 59   [14:45:39.909] Different program with same set of files
+Info 60   [14:45:40.409] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 61   [14:45:40.422] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 13.595752999186516ms
+Info 62   [14:45:40.422] Different program with same set of files
+Info 63   [14:45:40.610] getCompletionData: Get current token: 0.03837000019848347
+Info 64   [14:45:40.611] getCompletionData: Is inside comment: 0.10809099860489368
+Info 65   [14:45:40.611] getCompletionData: Get previous token: 0.08327300101518631
+Info 66   [14:45:40.611] getCompletionsAtPosition: isCompletionListBlocker: 0.010556001216173172
+Info 67   [14:45:40.617] getExportInfoMap: cache hit
+Info 68   [14:45:40.663] collectAutoImports: resolved 0 module specifiers, plus 192 ambient and 3184 from cache
+Info 69   [14:45:40.663] collectAutoImports: response is complete
+Info 70   [14:45:40.663] collectAutoImports: 45.84556799940765
+Info 71   [14:45:40.664] getCompletionData: Semantic work: 52.496942000463605
+Info 72   [14:45:40.687] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 23.380885999649763
+Info 73   [14:45:40.698] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 74   [14:45:40.704] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 6.04058999940753ms
+Info 75   [14:45:40.704] Different program with same set of files
+Info 76   [14:45:40.914] getCompletionData: Get current token: 0.011088000610470772
+Info 77   [14:45:40.915] getCompletionData: Is inside comment: 0.035214999690651894
+Info 78   [14:45:40.915] getCompletionData: Get previous token: 0.027785999700427055
+Info 79   [14:45:40.915] getCompletionsAtPosition: isCompletionListBlocker: 0.01961500011384487
+Info 80   [14:45:40.917] getExportInfoMap: cache hit
+Info 81   [14:45:40.962] collectAutoImports: resolved 0 module specifiers, plus 922 ambient and 4126 from cache
+Info 82   [14:45:40.962] collectAutoImports: response is complete
+Info 83   [14:45:40.962] collectAutoImports: 45.232580000534654
+Info 84   [14:45:40.962] getCompletionData: Semantic work: 47.80362099967897
+Info 85   [14:45:41.007] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 44.11542399972677
+Info 86   [14:45:41.252] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 87   [14:45:41.258] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 5.450846999883652ms
+Info 88   [14:45:41.258] Different program with same set of files
+Info 89   [14:45:43.726] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 90   [14:45:43.734] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 8.549395000562072ms
+Info 91   [14:45:43.734] Different program with same set of files
+Info 92   [14:45:44.249] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 93   [14:45:44.259] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 10.205540999770164ms
+Info 94   [14:45:44.259] Different program with same set of files
+Err 95    [14:45:44.628] Exception on executing command {"command":"getCodeFixes","seq":153,"type":"request","arguments":{"file":"/home/aryan/Code/jp-science-bowl/src/pages/_app.tsx","startLine":8,"startOffset":12,"endLine":8,"endOffset":12,"errorCodes":[2304,7027]}}:
+
+    Debug Failure. Token and statement should start at the same point. {"statementKind":"FunctionDeclaration","tokenKind":"CloseBraceToken","errorCode":7027,"start":213,"length":0}
+
+    Error: Debug Failure. Token and statement should start at the same point. {"statementKind":"FunctionDeclaration","tokenKind":"CloseBraceToken","errorCode":7027,"start":213,"length":0}
+        at doChange (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:159897:26)
+        at /home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:159880:96
+        at ChangeTracker.with (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:152296:17)
+        at Object.getCodeActions (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:159880:64)
+        at /home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:153564:77
+        at Object.flatMap (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:524:25)
+        at Object.getFixes (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:153564:23)
+        at /home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:169463:35
+        at Object.flatMap (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:524:25)
+        at Object.getCodeFixesAtPosition (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:169461:23)
+        at Session.getCodeFixes (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:181711:64)
+        at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:180090:61)
+        at /home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:182024:96
+        at Session.executeWithRequestId (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:182015:28)
+        at Session.executeCommand (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:182024:41)
+        at Session.onMessage (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:182052:35)
+        at Interface.<anonymous> (/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/tsserver.js:186178:31)
+        at Interface.emit (node:events:513:28)
+        at [_onLine] [as _onLine] (node:internal/readline/interface:425:12)
+        at [_normalWrite] [as _normalWrite] (node:internal/readline/interface:614:59)
+        at Socket.ondata (node:internal/readline/interface:252:23)
+        at Socket.emit (node:events:513:28)
+        at addChunk (node:internal/streams/readable:324:12)
+        at readableAddChunk (node:internal/streams/readable:297:9)
+        at Readable.push (node:internal/streams/readable:234:10)
+        at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Info 96   [14:45:44.882] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 97   [14:45:44.894] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 11.881761999800801ms
+Info 98   [14:45:44.895] Different program with same set of files
+Info 99   [14:45:49.142] Format host information updated
+Info 100  [14:45:49.356] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 101  [14:45:49.377] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 21.238358000293374ms
+Info 102  [14:45:49.377] Different program with same set of files
+Info 103  [14:45:52.123] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 104  [14:45:52.137] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 14.085266999900341ms
+Info 105  [14:45:52.137] Different program with same set of files
+Info 106  [14:45:53.761] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 107  [14:45:53.772] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 11.489527000114322ms
+Info 108  [14:45:53.773] Different program with same set of files
+Info 109  [14:45:55.104] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 110  [14:45:55.113] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 8.05761600099504ms
+Info 111  [14:45:55.113] Different program with same set of files
+Info 112  [14:45:55.671] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 113  [14:45:55.686] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 14.517841998487711ms
+Info 114  [14:45:55.686] Different program with same set of files
+Info 115  [14:45:56.257] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 116  [14:45:56.268] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 11.405305000022054ms
+Info 117  [14:45:56.268] Different program with same set of files
+Info 118  [14:45:57.775] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl :: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 119  [14:45:57.777] Elapsed:: 1.8783400002866983ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl :: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 120  [14:45:58.041] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 121  [14:45:58.042] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 0.856504000723362ms
+Info 122  [14:46:00.277] Before ensureProjectForOpenFiles:
+Info 123  [14:46:00.278] After ensureProjectForOpenFiles:
+Info 124  [14:46:00.278] got projects updated in background, updating diagnostics for /home/aryan/Code/jp-science-bowl/src/pages/_app.tsx
+Info 125  [14:46:27.030] Search path: /home/aryan/Code/jp-science-bowl/src/pages
+Info 126  [14:46:27.030] For info: /home/aryan/Code/jp-science-bowl/src/pages/_app.tsx :: Config file name: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 127  [14:46:27.030] Starting updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json
+Info 128  [14:46:27.037] Finishing updateGraphWorker: Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 7.368367001414299ms
+Info 129  [14:46:27.038] Different program with same set of files
+Info 130  [14:46:58.532] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_ 0:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 131  [14:46:58.532] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_
+Info 132  [14:46:58.532] Elapsed:: 0.4615540001541376ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_ 0:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 133  [14:46:58.532] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_ 1:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 134  [14:46:58.533] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_
+Info 135  [14:46:58.533] Elapsed:: 0.3426389992237091ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_ 1:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 136  [14:46:58.533] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 137  [14:46:58.533] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_
+Info 138  [14:46:58.533] Elapsed:: 0.09653200022876263ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 139  [14:46:58.533] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 140  [14:46:58.533] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack
+Info 141  [14:46:58.533] Elapsed:: 0.07949999906122684ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 142  [14:46:58.533] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 143  [14:46:58.533] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack.old
+Info 144  [14:46:58.533] Elapsed:: 0.0755199994891882ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 145  [14:46:58.533] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_ 5:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 146  [14:46:58.533] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_
+Info 147  [14:46:58.533] Elapsed:: 0.09746000170707703ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack_ 5:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 148  [14:46:58.534] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack 6:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 149  [14:46:58.534] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack
+Info 150  [14:46:58.534] Elapsed:: 0.12071100063621998ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/1.pack 6:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 151  [14:46:58.534] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_ 7:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 152  [14:46:58.534] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_
+Info 153  [14:46:58.534] Elapsed:: 0.07896400056779385ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack_ 7:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 154  [14:46:58.534] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack 8:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 155  [14:46:58.534] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack
+Info 156  [14:46:58.534] Elapsed:: 0.07531099952757359ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/0.pack 8:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 157  [14:46:58.534] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 158  [14:46:58.534] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_
+Info 159  [14:46:58.534] Elapsed:: 0.07002499885857105ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 160  [14:46:58.534] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 161  [14:46:58.534] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack
+Info 162  [14:46:58.534] Elapsed:: 0.25223500095307827ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 163  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_ 11:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 164  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_
+Info 165  [14:46:58.535] Elapsed:: 0.08763400092720985ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_ 11:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 166  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_ 12:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 167  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_
+Info 168  [14:46:58.535] Elapsed:: 0.06452600099146366ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_ 12:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 169  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_ 13:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 170  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_
+Info 171  [14:46:58.535] Elapsed:: 0.0745489988476038ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_ 13:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 172  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack 14:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 173  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack
+Info 174  [14:46:58.535] Elapsed:: 0.0892189983278513ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack 14:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 175  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack.old 15:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 176  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack.old
+Info 177  [14:46:58.535] Elapsed:: 0.07407400012016296ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack.old 15:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 178  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_ 16:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 179  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_
+Info 180  [14:46:58.535] Elapsed:: 0.04700599983334541ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack_ 16:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 181  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack 17:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 182  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack
+Info 183  [14:46:58.535] Elapsed:: 0.04653800092637539ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/1.pack 17:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 184  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_ 18:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 185  [14:46:58.535] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_
+Info 186  [14:46:58.535] Elapsed:: 0.04406199976801872ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack_ 18:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 187  [14:46:58.535] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack 19:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 188  [14:46:58.536] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack
+Info 189  [14:46:58.536] Elapsed:: 0.04110800102353096ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/0.pack 19:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 190  [14:46:58.536] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 191  [14:46:58.536] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_
+Info 192  [14:46:58.536] Elapsed:: 0.04779900051653385ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 193  [14:46:58.536] DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory
+Info 194  [14:46:58.536] Project: /home/aryan/Code/jp-science-bowl/tsconfig.json Detected file add/remove of non supported extension: /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack
+Info 195  [14:46:58.536] Elapsed:: 0.04361899942159653ms DirectoryWatcher:: Triggered with /home/aryan/Code/jp-science-bowl/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/aryan/Code/jp-science-bowl 1 undefined Config: /home/aryan/Code/jp-science-bowl/tsconfig.json WatchType: Wild card directory

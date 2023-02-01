@@ -1,0 +1,22 @@
+[14:45:19.793] Global cache location '/home/aryan/.cache/typescript/4.9', safe file path '/home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/typingSafeList.json', types map path /home/aryan/Code/jp-science-bowl/node_modules/.pnpm/typescript@4.9.4/node_modules/typescript/lib/typesMap.json
+[14:45:19.795] Processing cache location '/home/aryan/.cache/typescript/4.9'
+[14:45:19.795] Trying to find '/home/aryan/.cache/typescript/4.9/package.json'...
+[14:45:19.796] Loaded content of '/home/aryan/.cache/typescript/4.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.629"},"devDependencies":{"@types/cookie":"^0.5.1","@types/nodemailer":"^6.4.7","@types/react":"^18.0.26"}}
+[14:45:19.796] Loaded content of '/home/aryan/.cache/typescript/4.9/package-lock.json'
+[14:45:19.804] Adding entry into typings cache: 'cookie' => '/home/aryan/.cache/typescript/4.9/node_modules/@types/cookie/index.d.ts'
+[14:45:19.806] Adding entry into typings cache: 'nodemailer' => '/home/aryan/.cache/typescript/4.9/node_modules/@types/nodemailer/index.d.ts'
+[14:45:19.808] Adding entry into typings cache: 'react' => '/home/aryan/.cache/typescript/4.9/node_modules/@types/react/index.d.ts'
+[14:45:19.808] Finished processing cache location '/home/aryan/.cache/typescript/4.9'
+[14:45:19.809] Process id: 14652
+[14:45:19.809] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[14:45:19.809] validateDefaultNpmLocation: false
+[14:45:19.809] Npm config file: /home/aryan/.cache/typescript/4.9/package.json
+[14:45:19.809] Updating types-registry npm package...
+[14:45:19.809] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[14:45:20.477]     Succeeded. stdout:
+    
+    up to date, audited 9 packages in 438ms
+
+found 0 vulnerabilities
+
+[14:45:20.477] Updated types-registry npm package
